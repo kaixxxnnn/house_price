@@ -5,7 +5,7 @@ import request
 
 st.title = ("Read CSV from GitHub")
 
-url = "https://raw.githubusercontent.com/kaixxxnnn/house_price/main/data.csv"
+url = "https://raw.githubusercontent.com/kaixxxnnn/testing/main/data.csv"
 
 def load_data():
   return pd.read_csv(url)
